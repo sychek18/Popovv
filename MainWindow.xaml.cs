@@ -24,7 +24,6 @@ namespace Popovv
         {
             InitializeComponent();
             ImageSourceConverter imageSource = new ImageSourceConverter();
-            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -32,20 +31,31 @@ namespace Popovv
             switch (((Button)sender).Content)
             {
                 case "Наука":
-                    ShowDialog(TestWindow("science"));
+                    OpenTestAsync("science").GetAwaiter();
                     Hide();
                     break;
                 case "Медицина":
-                    ShowDialog(TestWindow("med"));
+                    OpenTestAsync("med").GetAwaiter();
                     Hide();
                     break;
                 case "IT":
-                    ShowDialog(TestWindow("it"));
+                    OpenTestAsync("it").GetAwaiter();
                     Hide();
                     break;
                 default:
                     break;
             }
+        }
+        private async Task OpenTestAsync(string TestClass)
+        {
+            await Task.Run(() => OpenTest(TestClass));
+        }
+        private void OpenTest(string TestClass)
+        {
+            Dispatcher.BeginInvoke((Action)(() => { 
+            TestWindow testWindow = new TestWindow(TestClass);
+            testWindow.ShowDialog();
+            }));
         }
     }
 }
