@@ -23,6 +23,27 @@ namespace Popovv
         public MainWindow()
         {
             InitializeComponent();
+            ImageSourceConverter imageSource = new ImageSourceConverter();
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            switch (((Button)sender).Content)
+            {
+                case "Наука":
+                    ShowDialog(TestWindow);
+                    Hide();
+                    break;
+                case "Медицина":
+
+                    break;
+                case "IT":
+
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
