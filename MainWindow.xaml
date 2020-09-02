@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="260" Width="750">
     <Grid>
-        <Image Source="science.png" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="150" Height="150" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top"/>
-        <Image Source="med.jpg" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="150" Height="150" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top"/>
-        <Image Source="it.jpg" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="150" Height="150" HorizontalAlignment="Left" Margin="500,10,0,0" VerticalAlignment="Top"/>
+        <Image Source="Resources/science.png" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="150" Height="150" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top"/>
+        <Image Source="Resources/med.jpg" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="150" Height="150" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top"/>
+        <Image Source="Resources/it.jpg" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="150" Height="150" HorizontalAlignment="Left" Margin="500,10,0,0" VerticalAlignment="Top"/>
         <Button Content="Наука" HorizontalAlignment="Left" Margin="100,180,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="Button_Click"/>
         <Button Click="Button_Click" Content="Медицина" HorizontalAlignment="Left" Margin="300,180,0,0" VerticalAlignment="Top" Width="150" Height="30"/>
         <Button Click="Button_Click" Content="IT" HorizontalAlignment="Left" Margin="500,180,0,0" VerticalAlignment="Top" Width="150" Height="30"/>

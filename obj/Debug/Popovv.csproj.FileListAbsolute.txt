@@ -12,3 +12,17 @@ C:\Users\Student\Desktop\Popovv\obj\Debug\Popovv.Properties.Resources.resources
 C:\Users\Student\Desktop\Popovv\obj\Debug\Popovv.csproj.GenerateResource.cache
 C:\Users\Student\Desktop\Popovv\obj\Debug\Popovv.exe
 C:\Users\Student\Desktop\Popovv\obj\Debug\Popovv.pdb
+C:\Users\38066\Documents\GitHub\Popovv\bin\Debug\Popovv.exe.config
+C:\Users\38066\Documents\GitHub\Popovv\bin\Debug\Popovv.exe
+C:\Users\38066\Documents\GitHub\Popovv\bin\Debug\Popovv.pdb
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.csprojAssemblyReference.cache
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\MainWindow.g.cs
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\App.g.cs
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv_MarkupCompile.cache
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv_MarkupCompile.lref
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\MainWindow.baml
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.g.resources
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.Properties.Resources.resources
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.csproj.GenerateResource.cache
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.exe
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.pdb

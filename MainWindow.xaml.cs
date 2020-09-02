@@ -32,14 +32,16 @@ namespace Popovv
             switch (((Button)sender).Content)
             {
                 case "Наука":
-                    ShowDialog(TestWindow);
+                    ShowDialog(TestWindow("science"));
                     Hide();
                     break;
                 case "Медицина":
-
+                    ShowDialog(TestWindow("med"));
+                    Hide();
                     break;
                 case "IT":
-
+                    ShowDialog(TestWindow("it"));
+                    Hide();
                     break;
                 default:
                     break;
