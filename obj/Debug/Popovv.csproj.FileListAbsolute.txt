@@ -26,3 +26,5 @@ C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.Properties.Resources.res
 C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.csproj.GenerateResource.cache
 C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.exe
 C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\Popovv.pdb
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\TestWindow.g.cs
+C:\Users\38066\Documents\GitHub\Popovv\obj\Debug\TestWindow.baml
