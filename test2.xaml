@@ -1,0 +1,16 @@
+﻿<Window x:Class="Popovv.test2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Popovv"
+        mc:Ignorable="d"
+        Title="test2" Height="450" Width="800">
+    <Grid>
+        <Image Margin="203,10,202,180.5" Source="iphone-xs-galaxy-s10-drop-test_large.jpg" Stretch="Fill"/>
+        <Label Content="Какую марку телефона ты предпочитаешь?&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="203,265,0,0" VerticalAlignment="Top" Width="390" Height="38" FontSize="18"/>
+        <Button Content="Samsung&#xD;&#xA;" HorizontalAlignment="Left" Margin="51,332,0,0" VerticalAlignment="Top" Width="178" Height="60" FontSize="22"/>
+        <Button Content="Apple" HorizontalAlignment="Left" Margin="560,332,0,0" VerticalAlignment="Top" Width="178" Height="60" FontSize="22"/>
+
+    </Grid>
+</Window>

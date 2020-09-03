@@ -1,0 +1,16 @@
+﻿<Window x:Class="Popovv.test3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Popovv"
+        mc:Ignorable="d"
+        Title="test3" Height="450" Width="800">
+    <Grid>
+        <Image Margin="10,10,392,213.5" Source="download.jpg" Stretch="Fill"/>
+        <Label Content="Присутствует ли собака на фото?" HorizontalAlignment="Left" Margin="408,73,0,0" VerticalAlignment="Top" Height="69" Width="331" FontSize="20"/>
+        <Button Content="ДА&#xD;&#xA;" HorizontalAlignment="Left" Margin="56,311,0,0" VerticalAlignment="Top" Width="150" Height="70" FontSize="20"/>
+        <Button Content="НЕТ" HorizontalAlignment="Left" Margin="593,311,0,0" VerticalAlignment="Top" Width="146" Height="70" FontSize="20"/>
+
+    </Grid>
+</Window>

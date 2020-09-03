@@ -1,0 +1,16 @@
+﻿<Window x:Class="Popovv.test1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Popovv"
+        mc:Ignorable="d"
+        Title="test1" Height="450" Width="800">
+    <Grid>
+        <Image Margin="200,10,172,148.5" Source="755071035954826.jpg" Stretch="Fill"/>
+        <Label Content="Есть ли на картинке машина?" HorizontalAlignment="Left" Margin="254,279,0,0" VerticalAlignment="Top" Height="57" Width="309" FontSize="20"/>
+        <Button  Content="ДА" HorizontalAlignment="Left" Margin="81,331,0,0" VerticalAlignment="Top" Click="acceptButton_Click" Width="173" Height="76" FontSize="24"/>
+        <Button Content="НЕТ" HorizontalAlignment="Left" Margin="563,336,0,0" VerticalAlignment="Top" Width="134" Height="76" FontSize="24"/>
+
+    </Grid>
+</Window>
