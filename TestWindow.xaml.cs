@@ -19,6 +19,7 @@ namespace Popovv
     /// </summary>
     public partial class TestWindow : Window
     {
+        bool WeStupid = true;
         public TestWindow(string TestClass)
         {
             InitializeComponent();
