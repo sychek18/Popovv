@@ -26,6 +26,11 @@ namespace Popovv
             MessageBox.Show("Да, правильно");
         }
 
+        private void acceptButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Нет, не правильно");
+        }
+
         private void escButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close(); // закрытие окна
